@@ -1,6 +1,7 @@
 input1 = input()
+alpha = []
 for char in input1:
     if char == "7":
-        print(7)
+        pass
     else:
-        print(char)
+        alpha.extend(input1)
